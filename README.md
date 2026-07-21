@@ -22,6 +22,7 @@ Ticket Bounty is a full-stack Next.js application for posting and tracking bount
 ---
 
 ## Project Overview
+![](./public/ticketbounty.png)
 The app is built on the Next.js App Router with server actions for all mutations (auth, tickets, comments) and a Postgres database via Prisma. Key objectives:
 - Provide session-based authentication without a third-party auth provider (custom Lucia-style session handling with Argon2 password hashing).
 - Let any signed-in user browse all tickets, but only manage (edit/delete/change status of) their own.
